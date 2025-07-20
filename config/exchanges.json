@@ -1,0 +1,84 @@
+{
+  "binance": {
+    "name": "Binance",
+    "addresses": [
+      "13Gj3X6vYUd19p9FWKzKBDQugH47AHkXGUBJqMYiXxTZYRYf",
+      "14rYejgjVgR8wnRvvXXbVsPrKCLTiXvBTcc86M3jWFh2Uo8c",
+      "12xtAYsRUrmbniiefLj5NMpnR9vTAjARsnULzs2ey2kdZxFC",
+      "15NKsw4AoSKBCfgDcCU9WQPLz5va8T9cqKJZU8TbntxmDRy2"
+    ],
+    "type": "cex"
+  },
+  "kraken": {
+    "name": "Kraken",
+    "addresses": [
+      "16GMp5BTXSxvL1K2y5c8sCHCvJ4hZ8u4MtMHpzJJQBQqNKgJ",
+      "1BeFd8A6NVcDpJqCTksUwFdNgFhscoptySQ7NCzhC8vKYX1",
+      "1REAJ1k691g5zctEKcMmqcWJpfbisNpMpEjDhqtLqwGwYBp"
+    ],
+    "type": "cex"
+  },
+  "coinbase": {
+    "name": "Coinbase",
+    "addresses": [
+      "14ShUZUYUR35RBZW6uVVt1zXDxmSQddkeDdXf1JkMA6P721N",
+      "15kUt2i8nLNGWk9XqUBvgPHxCLLrvipQXWtyDBfQDJqNUV14"
+    ],
+    "type": "cex"
+  },
+  "okx": {
+    "name": "OKX",
+    "addresses": [
+      "14ibHQPFw6cFFiPXZo5tMLwvHDRxjvPJrW8dL8RGDBjaSgBj",
+      "13UbbKHkGmw5mNzQHNuAKfvMszNP4KNJkE6LBdLJgeLTdaWx"
+    ],
+    "type": "cex"
+  },
+  "huobi": {
+    "name": "Huobi",
+    "addresses": [
+      "13WwoQbsHsNjUNgEv4DPRPCfGmgJsEByDPFJSRsY2W5bd9WB",
+      "16hhDcu8iRnLpHbqRZQvdESC8qHNhUWNmHZfRkVC5yU4zNjJ"
+    ],
+    "type": "cex"
+  },
+  "kucoin": {
+    "name": "KuCoin",
+    "addresses": [
+      "16FvCJ7vVcsX5eCp5KbnLmgsCaXYRr9Q9fePgo8YUJ7R9Dnn",
+      "13BeUcLu7kYsswi8zUMqY7HQFdR5K9m3B95SG3NNPWB2fBK3"
+    ],
+    "type": "cex"
+  },
+  "gateio": {
+    "name": "Gate.io",
+    "addresses": [
+      "1Qrw3wL7vC7LRXQNqYFdm5UFQGTBKvhkzqYpWqJRvYH2Lgr",
+      "15JDXNkmKaGYN3xMTfspmmg7mPZ1MQQzN9SFDVvZq3kvYjvU"
+    ],
+    "type": "cex"
+  },
+  "mexc": {
+    "name": "MEXC",
+    "addresses": [
+      "15pChgBinTHEL4v2Npkbg9ti4p8pnWcFqMJNMYGNgKxvWGaH"
+    ],
+    "type": "cex"
+  },
+  "parallel_finance": {
+    "name": "Parallel Finance",
+    "addresses": [
+      "13wNbioJt44NKrcQ5ZUrshJqP7TKzQbzZt5nhkeL4joa3PAX"
+    ],
+    "type": "defi",
+    "note": "DeFi protocol - not a CEX but tracks large flows"
+  },
+  "acala": {
+    "name": "Acala",
+    "addresses": [
+      "15kUt7sXejgf8KVynGYt6mfzUiPvNPQ9o3pUXb6rwytuLHwL"
+    ],
+    "type": "defi",
+    "note": "Acala Network DeFi hub"
+  }
+}

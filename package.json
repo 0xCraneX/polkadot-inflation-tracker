@@ -1,0 +1,23 @@
+{
+  "name": "polkadot-inflation-tracker",
+  "version": "1.0.0",
+  "description": "Track Polkadot inflation distribution and exchange sell pressure",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "track": "node src/tracker.js",
+    "analyze": "node src/analyzer.js",
+    "report": "node src/reporter.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^13.2.1",
+    "axios": "^1.7.7",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
