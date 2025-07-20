@@ -83,7 +83,7 @@ export class TransferCollector {
     
     while (true) {
       try {
-        const data = await this.makeRequest('/api/scan/transfers', {
+        const data = await this.makeRequest('/api/v2/scan/transfers', {
           address: address,
           row: rowsPerPage,
           page: page,
@@ -181,7 +181,7 @@ export class TransferCollector {
     
     while (true) {
       try {
-        const data = await this.makeRequest('/api/scan/transfers', {
+        const data = await this.makeRequest('/api/v2/scan/transfers', {
           address: address,
           row: rowsPerPage,
           page: page,
